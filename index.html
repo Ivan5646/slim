@@ -231,11 +231,6 @@
 					<ul class="footer__list">
 						<li class="footer__item">
 							<span class="footer__marker"></span>
-							<p class="footer__text">Продукция для функционального питания  (Белковый коктейль Экоидеал
-								на выбор)</p>
-						</li>
-						<li class="footer__item">
-							<span class="footer__marker"></span>
 							<p class="footer__text">Знания о ПП и нужных основных и дополнительных продуктах</p>
 						</li>
 						<li class="footer__item">
@@ -249,33 +244,6 @@
 						<li class="footer__item">
 							<span class="footer__marker"></span>
 							<p class="footer__text">Ежедневные утренние разминки и помощь кураторов в онлайн</p>
-						</li>
-					</ul>
-
-					<h3 class="footer__title">Тариф PRO включает:</h3>
-
-					<ul class="footer__list">
-						<li class="footer__item">
-							<span class="footer__marker"></span>
-							<p class="footer__text">Все, что входит в пакет START плюс</p>
-						</li>
-						<li class="footer__item">
-							<span class="footer__marker"></span>
-							<p class="footer__text">Продукция для функционального питания ( Белковый коктейль Экоидеал
-								на выбор и Indole 3 Carbinol)</p>
-						</li>
-						<li class="footer__item">
-							<span class="footer__marker"></span>
-							<p class="footer__text">Дополнительные занятия по FACE YOGA с Светланой Пяркинен</p>
-						</li>
-						<li class="footer__item">
-							<span class="footer__marker"></span>
-							<p class="footer__text">Дополнительные прямые эфиры с косметологом и консультантом в сфере
-								биохакинг</p>
-						</li>
-						<li class="footer__item">
-							<span class="footer__marker"></span>
-							<p class="footer__text">Индивидуальная консультация с экспертами курса</p>
 						</li>
 					</ul>
 				</div>
@@ -313,42 +281,7 @@
 					</div>
 					{% end %}
 
-					<div class="payment__inner"></div>
-
-					<div class="payment__header">
-						<span class="payment__text">ТАРИФ PRO:</span>
-						<span class="payment__amount">{{ticket2['price']}} ₽</span>
-					</div>
-
-					{% if lead_promo %}
-					<div class="payment__inner">
-						<div class="payment__btns-wrap">
-							<button class="template-btn" type="button" id="cardBtn2">
-								<span>Оплатить картой</span>
-							</button>
-
-							<img src="img/visa-logo.svg" alt="visa">
-						</div>
-						<div class="payment__btns-wrap">
-							<button class="template-btn" type="button" id="ntzdBtn2">
-								<span>Оплатить в ntz</span>
-							</button>
-							<img src="img/ntz-logo.svg" alt="visa">
-						</div>
-					</div>
-
-					{% else %}
-					<div class="non-ref">
-						<p class="non-ref__text">Для совершения покупки Вам необходима реферальная ссылка. Для её
-							получения обратитесь к тому, кто Вам посоветовал этот товар или найдите ссылку в инстаграме
-							по хештегу
-							<a href="https://www.instagram.com/explore/tags/netizensteam/">#netizensteam</a>
-						</p>
-					</div>
-					{% end %}
-
 				</div>
-
 			</div>
 		</div>
 
